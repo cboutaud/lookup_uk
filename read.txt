@@ -8,6 +8,9 @@ Ex of Modifications:
 
 If you’re not use to output areas, don’t confuse by the names lower super output areas are larger than output areas (they are generally made up of four to six output areas), it’s the “super” that matters here not the “lower”. This is done to allow data provider to release content that could be disclosive if published by output areas.
 
+
+Yes I will need to put this in a clean little json eventually. That’s far from being a priority for me however, so if you want to take the lead and do it for me thanks. :)
+
 —————————————————————————————————————
 
 oa_to_pcs.csv matches output areas to postcode sector for England and Wales. The original for this was published by the ONS in August 2016. The output areas are those of 2011. Relations are not unique, more than one lower super output area can be match to the same postcode.

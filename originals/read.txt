@@ -1,6 +1,6 @@
 This gives information on original files including content, source, date downloaded, date uploaded to source and description from source.
 
-Yes I will need to put this in a clean little json eventually. That’s far from being a priority for me however, so if you want to take the lead and do it for me thanks. :)
+Same as for the read file in the main repo: Yes I will need to put this in a clean little json eventually. That’s far from being a priority for me however, so if you want to take the lead and do it for me thanks. :)
 
 —————————————————————————————————————
 
