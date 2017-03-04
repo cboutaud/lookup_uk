@@ -15,10 +15,19 @@ Description from source : A best-fit lookup between output areas and enumeration
 
 PCD11_OA11_LSOA11_MSOA11_LAD11_EW_LU_aligned_v2.csv contains postcode to oa to lsoa to msoa to lad.
 
-Source: ons.maps.arcgis.com
+Source : ons.maps.arcgis.com
 Downloaded on : March 4 2017
 Uploaded to source on : August 5, 2016
 Description from source : A best-fit lookup between enumeration postcodes, Output Areas (OA), Lower Layer Super Output Areas (LSOA), Middle Layer Super Output Areas (MSOA) and local authority districts (LAD) as at 31 December 2011 in England and Wales. Postcodes are best-fitted by plotting the location of the postcode's mean address into the areas of the output geographies. Enumeration postcodes are a sub-OA geography used only for the publication of estimates of males, females and households in the 2011 Census. The 2011 Census enumeration postcodes consist only of valid unit postcodes as at May 2011.
+
+—————————————————————————————————————
+
+Local_Authority_District_to_County_December_2016_Lookup_in_England.csv contains lad to county lookup.
+
+Source : geoportal.statistics.gov.uk
+Downloaded on : March 4 2017
+Uploaded to source on : January 4, 2017
+Description from source : This is a lookup file between local authority districts and counties, metropolitan counties and Greater London in England as at 31 December 2016.
 
 —————————————————————————————————————
 

@@ -22,3 +22,8 @@ pc_to_oa_lsoa_msoa_lad.csv matches postcodes (seven and eight character format) 
 
 —————————————————————————————————————
 
+lad_to_county.csv matches lad (code and name) to county (code and name) for England. The original for this was published in January 2017.
+
+—————————————————————————————————————
+
+
