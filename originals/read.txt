@@ -1,0 +1,25 @@
+This gives information on original files including content, source, date downloaded, date uploaded to source and description from source.
+
+Yes I will need to put this in a clean little json eventually. That’s far from being a priority for me however, so if you want to take the lead and do it for me thanks. :)
+
+—————————————————————————————————————
+
+OA11_PCDS11_EW_LU.csv contains oa to postcode lookup.
+
+Source : ons.maps.arcgis.com
+Downloaded on : March 4 2017
+Uploaded to source on : August 17, 2016
+Description from source : A best-fit lookup between output areas and enumeration postcode sectors as at 31 December 2011 in England and Wales. The 2011 OA to enumeration postcode sector (E&W) lookup has been created from a base file, namely the residential postcode (census enumeration only) to 2011 OA lookup. The base file was created by best-fitting postcodes to 2011 OA by plotting the postcode centroid (the point of the mean address in the postcode) into the 2011 OA. To create a 2011 OA to postcode sector lookup from the base file, the following processes were run: - postcodes were truncated to five characters (postcode sector level) from seven characters (unit postcode level). - these five character postcode sectors were grouped to form a postcode sector to OA lookup (many postcode sectors to many OA). - each unique OA was then assigned to a single postcode sector. If an OA covered more than one postcode sector, the postcode sector with most Census population falling in the OA was assigned. This gives a one OA to many postcode sectors lookup. Postcode sectors can cross administrative areas and will only be aligned within the defined postcode hierarchy.
+
+—————————————————————————————————————
+
+PCD11_OA11_LSOA11_MSOA11_LAD11_EW_LU_aligned_v2.csv contains postcode to oa to lsoa to msoa to lad.
+
+Source: ons.maps.arcgis.com
+Downloaded on : March 4 2017
+Uploaded to source on : August 5, 2016
+Description from source : A best-fit lookup between enumeration postcodes, Output Areas (OA), Lower Layer Super Output Areas (LSOA), Middle Layer Super Output Areas (MSOA) and local authority districts (LAD) as at 31 December 2011 in England and Wales. Postcodes are best-fitted by plotting the location of the postcode's mean address into the areas of the output geographies. Enumeration postcodes are a sub-OA geography used only for the publication of estimates of males, females and households in the 2011 Census. The 2011 Census enumeration postcodes consist only of valid unit postcodes as at May 2011.
+
+—————————————————————————————————————
+
+
