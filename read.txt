@@ -1,10 +1,15 @@
-Originals Folder contains the files as they were downloaded.
+General information about this repo.
+
+Folders:
+originals folder contains the files as they were downloaded.
+write folder countains script to write new/combine different lookup files.
 
 Below are small descriptions  of the files which have been slightly modified.
 Ex of Modifications:
 - Renaming the files to make content more obvious.
 - Renaming columns to make content more obvious.
 - Make columns names consistent across files to make it easier to write functions for automatic lookup eventually.
+- Combining different lookups together.
 
 If you’re not use to output areas, don’t confuse by the names lower super output areas are larger than output areas (they are generally made up of four to six output areas), it’s the “super” that matters here not the “lower”. This is done to allow data provider to release content that could be disclosive if published by output areas.
 
@@ -22,7 +27,11 @@ pc_to_oa_lsoa_msoa_lad.csv matches postcodes (seven and eight character format) 
 
 —————————————————————————————————————
 
-lad_to_county.csv matches lad (code and name) to county (code and name) for England. The original for this was published in January 2017.
+lad_to_county.csv matches lad (code and name) to county (code and name) for England (be aware this exludes unitary authorities). The original for this was published in January 2017.
+
+—————————————————————————————————————
+
+pc_to_oa_lsoa_msoa_lad_county.csv matches postcodes (seven and eight character format) to output areas, lower super output areas (code and name), middle super output areas (code and name), local authority district (code, name and welsh name) and county (be aware this excludes unitary authority) for England and Wales. This is the combination of pc_to_oa_lsoa_msoa_lad.csv and lad_to_county.csv using add_county_to_lad.py in the write folder.
 
 —————————————————————————————————————
 

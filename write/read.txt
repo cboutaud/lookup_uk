@@ -1,0 +1,7 @@
+This gives information on scripts used to write new or combine different lookups.
+
+—————————————————————————————————
+
+add_county_to_lad.py was used to add county data from lad_to_county.csv to pc_to_oa_lsoa_msoa_lad.csv and write the results in pc_to_oa_lsoa_msoa_lad_county.csv
+
+—————————————————————————————————
