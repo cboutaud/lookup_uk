@@ -20,19 +20,23 @@ Yes I will need to put this in a clean little json eventually. That’s far from
 
 —————————————————————————————————————
 
-oa_to_pcs.csv matches output areas to postcode sector for England and Wales. The original for this was published by the ONS in August 2016. The output areas are those of 2011. Relations are not unique, more than one lower super output area can be match to the same postcode.
+# oa_to_pcs.csv 
+Matches output areas to postcode sector for England and Wales. The original for this was published by the ONS in August 2016. The output areas are those of 2011. Relations are not unique, more than one lower super output area can be match to the same postcode.
 *Not sure why there are some double space in some postcodes. Might be so they fit eight character postcode format, rather than seven charactre format.*
 
 —————————————————————————————————————
 
-pc_to_oa_lsoa_msoa_lad.csv matches postcodes (seven and eight character format) to output areas, lower super output areas (code and name), middle super output areas (code and name), local authority district (code, name and welsh name) for England and Wales. The original for this was published in August 2016. The outuput areas are those of 2011. There is a boolean numeric indicator to know if the postcode is split between more than one output area (“1” if True, “0” if False). They are however linked to only one output area in the file, “best-fitted by plotting to the postcode’s mean”.
+# pc_to_oa_lsoa_msoa_lad.csv
+Matches postcodes (seven and eight character format) to output areas, lower super output areas (code and name), middle super output areas (code and name), local authority district (code, name and welsh name) for England and Wales. The original for this was published in August 2016. The outuput areas are those of 2011. There is a boolean numeric indicator to know if the postcode is split between more than one output area (“1” if True, “0” if False). They are however linked to only one output area in the file, “best-fitted by plotting to the postcode’s mean”.
 
 —————————————————————————————————————
 
-lad_to_county.csv matches lad (code and name) to county (code and name) for England (be aware this exludes unitary authorities). The original for this was published in January 2017.
+# lad_to_county.csv
+Matches lad (code and name) to county (code and name) for England (be aware this exludes unitary authorities). The original for this was published in January 2017.
 
 —————————————————————————————————————
 
-pc_to_oa_lsoa_msoa_lad_county.csv matches postcodes (seven and eight character format) to output areas, lower super output areas (code and name), middle super output areas (code and name), local authority district (code, name and welsh name) and county (be aware this excludes unitary authority) for England and Wales. This is the combination of pc_to_oa_lsoa_msoa_lad.csv and lad_to_county.csv using add_county_to_lad.py in the write folder.
+# pc_to_oa_lsoa_msoa_lad_county.csv
+Matches postcodes (seven and eight character format) to output areas, lower super output areas (code and name), middle super output areas (code and name), local authority district (code, name and welsh name) and county (be aware this excludes unitary authority) for England and Wales. This is the combination of pc_to_oa_lsoa_msoa_lad.csv and lad_to_county.csv using add_county_to_lad.py in the write folder.
 
 —————————————————————————————————————
